@@ -1,0 +1,228 @@
+/* Start Component */
+:root {
+  --fields-margin: 20px;
+}
+/* End Component */
+/* Start Global Rules */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+}
+ul {
+  list-style: none;
+}
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Small */
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+/* Medium */
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+/* Large */
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+/* End Global Rules */
+
+.sign-up {
+  height: fit-content;
+}
+.sign-up .container .row .sign-col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 0px;
+}
+.sign-up .container .row .sign-col form .head {
+  margin-bottom: var(--fields-margin);
+}
+.sign-up .container .row .sign-col form .head h3 {
+  font-size: 32px;
+  text-align: center;
+}
+.sign-up .container .row .sign-col form .name {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: var(--fields-margin);
+}
+.sign-up .container .row .sign-col form .name label {
+  font-size: 14px;
+  font-weight: 600;
+}
+.sign-up .container .row .sign-col form .name input {
+  width: 100%;
+  outline: none;
+  border: 1px solid #D9D9D9;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  padding: 5px 15px;
+}
+.sign-up .container .row .sign-col form .email-add {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: var(--fields-margin);
+}
+.sign-up .container .row .sign-col form .email-add label {
+  font-size: 14px;
+  font-weight: 600;
+}
+.sign-up .container .row .sign-col form .email-add input {
+  width: 100%;
+  outline: none;
+  border: 1px solid #D9D9D9;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  padding: 5px 15px;
+}
+.sign-up .container .row .sign-col form .password {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: var(--fields-margin);
+  width: 100%;
+}
+.sign-up .container .row .sign-col form .password label {
+  font-size: 14px;
+  font-weight: 600;
+}
+.sign-up .container .row .sign-col form .password input {
+  width: 100%;
+  outline: none;
+  border: 1px solid #D9D9D9;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  padding: 5px 15px;
+}
+.sign-up .container .row .sign-col form .check-policy {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: var(--fields-margin);
+  width: 100%;
+  gap: 10px;
+}
+.sign-up .container .row .sign-col form .sign-btn {
+  margin-bottom: 25px;
+}
+.sign-up .container .row .sign-col form .sign-btn button {
+  width: 100%;
+  background-color: #3A5B22;
+  color: #FFFFFF;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+.sign-up .container .row .sign-col form .sign-btn button:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+.sign-up .container .row .sign-col form .line {
+  text-align: center;
+  font-weight: 700;
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+.sign-up .container .row .sign-col form .other-methods {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: var(--fields-margin);
+  gap: 15px;
+}
+.sign-up .container .row .sign-col form .other-methods .google {
+  border: 1px solid #D9D9D9;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  padding: 5px 15px;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+.sign-up .container .row .sign-col form .other-methods .google:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+.sign-up .container .row .sign-col form .other-methods .google a {
+  text-decoration: none;
+  font-size: 14px;
+  color: black;
+  font-weight: 600;
+  padding-left: 8px;
+} 
+.sign-up .container .row .sign-col form .other-methods .apple {
+  border: 1px solid #D9D9D9;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  padding: 5px 15px;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+.sign-up .container .row .sign-col form .other-methods .apple:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+.sign-up .container .row .sign-col form .other-methods .apple a {
+  text-decoration: none;
+  font-size: 14px;
+  color: black;
+  font-weight: 600;
+  padding-left: 8px;
+}
+.sign-up .container .row .sign-col form .login-option {
+  text-align: center;
+  font-size: 15px;
+  font-weight: 600;
+}
+.sign-up .container .row .sign-col form .login-option a {
+  text-decoration: none;
+  padding-left: 10px;
+}
