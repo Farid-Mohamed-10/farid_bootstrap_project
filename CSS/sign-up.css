@@ -53,6 +53,20 @@ ul {
   align-items: center;
   padding: 60px 0px;
 }
+.sign-up .container .row .sign-col form {
+  width: 80%;
+}
+@media (max-width: 991px) {
+  .sign-up .container .row .sign-col {
+    margin-left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    width: 80%;
+  }
+}
 .sign-up .container .row .sign-col form .head {
   margin-bottom: var(--fields-margin);
 }
@@ -140,6 +154,11 @@ ul {
   -moz-transition: 0.3s;
   -ms-transition: 0.3s;
   -o-transition: 0.3s;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
 .sign-up .container .row .sign-col form .sign-btn button:hover {
   transform: scale(1.1);
@@ -161,6 +180,17 @@ ul {
   margin-bottom: var(--fields-margin);
   gap: 15px;
 }
+@media (max-width: 767px) {
+  .sign-up .container .row .sign-col form .other-methods {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 991px) {
+  .sign-up .container .row .sign-col form .other-methods {
+    gap: 45px;
+  }
+}
 .sign-up .container .row .sign-col form .other-methods .google {
   border: 1px solid #D9D9D9;
   border-radius: 10px;
@@ -174,6 +204,14 @@ ul {
   -moz-transition: 0.3s;
   -ms-transition: 0.3s;
   -o-transition: 0.3s;
+}
+@media (max-width: 767px) {
+  .sign-up .container .row .sign-col form .other-methods .google {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+  }
 }
 .sign-up .container .row .sign-col form .other-methods .google:hover {
   transform: scale(1.1);
@@ -203,6 +241,14 @@ ul {
   -ms-transition: 0.3s;
   -o-transition: 0.3s;
 }
+@media (max-width: 767px) {
+  .sign-up .container .row .sign-col form .other-methods .apple {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+  }
+}
 .sign-up .container .row .sign-col form .other-methods .apple:hover {
   transform: scale(1.1);
   -webkit-transform: scale(1.1);
@@ -225,4 +271,14 @@ ul {
 .sign-up .container .row .sign-col form .login-option a {
   text-decoration: none;
   padding-left: 10px;
+}
+@media (max-width: 767px) {
+  .sign-up .container .row .image-col {
+    display: none;
+  }
+}
+@media (max-width: 991px) {
+  .sign-up .container .row .image-col {
+    display: none;
+  }
 }

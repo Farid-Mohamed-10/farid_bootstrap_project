@@ -46,6 +46,22 @@ ul {
   justify-content: center;
   align-items: center;
 }
+@media (max-width: 767px) {
+  .login .container .row .login-fields {
+    margin-top: 30px;
+  }
+}
+@media (max-width: 991px) {
+  .login .container .row .login-fields {
+    margin-left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    width: 80%;
+  }
+}
 .login .container .row .login-fields form h4 {
   font-family: Poppins;
   font-size: 32px;
@@ -80,13 +96,13 @@ ul {
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
   border: 2px solid #D9D9D9;
-  padding: 8px 10px 2px;
+  padding: 13px 10px 2px;
   width: 100%;
   margin-bottom: 10px;
   outline: none;
 }
 .login .container .row .login-fields form input:not(:last-of-type)::placeholder {
-  font-size: 10px;
+  font-size: 12px;
   margin-bottom: 50%;
   transform: translateY(-50%);
   -webkit-transform: translateY(-50%);
@@ -148,6 +164,13 @@ ul {
   gap: 23px;
   margin-top: 0;
 }
+@media (max-width: 767px) {
+  .login .container .row .login-fields form .other-methods {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+}
 .login .container .row .login-fields form .other-methods .google {
   border: 1px solid #D9D9D9;
   border-radius: 10px;
@@ -161,6 +184,13 @@ ul {
   -moz-transition: 0.3s;
   -ms-transition: 0.3s;
   -o-transition: 0.3s;
+}
+@media (max-width: 767px) {
+  .login .container .row .login-fields form .other-methods .google {
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+  }
 }
 .login .container .row .login-fields form .other-methods .google:hover {
   transform: scale(1.1);
@@ -189,6 +219,13 @@ ul {
   -moz-transition: 0.3s;
   -ms-transition: 0.3s;
   -o-transition: 0.3s;
+}
+@media (max-width: 767px) {
+  .login .container .row .login-fields form .other-methods .apple {
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+  }
 }
 .login .container .row .login-fields form .other-methods .apple:hover {
   transform: scale(1.1);
@@ -220,4 +257,14 @@ ul {
 .login .container .row .login-fields form .sign a {
   margin-top: -23px;
   font-size: 14px;
+}
+@media (max-width: 767px) {
+  .login .container .row .image {
+    display: none;
+  }
+}
+@media (max-width: 991px) {
+  .login .container .row .image {
+    display: none;
+  }
 }
